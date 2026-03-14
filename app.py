@@ -18,4 +18,4 @@ if uploaded:
     conf = results.probs.top1conf.item() * 100 
  
     st.success(f"Prediction: {name}") 
-    st.write(f"Confidence: {conf:.2f}%") 
+    st.write(f"Confidence: {conf:.2f}%")
